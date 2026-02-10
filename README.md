@@ -14,3 +14,7 @@ Szükséges tetőlemez mennyiségének számítása. Reactban írva, Bootstrap m
 | 30 | 1000001 | Hiba |
 
 Maximum 1 millió.
+
+## GitHub
+
+* [https://github.com/oktatte/telemez.git](https://github.com/oktatte/telemez.git)
