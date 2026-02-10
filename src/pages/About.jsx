@@ -7,7 +7,7 @@ const About = () => {
             <p>2026-02-10</p>
             <p>Licenc: MIT</p>
             <p>
-                <a href="https://szhit.hu/m/telemez">https://szhit.hu/m/telemez</a>
+                <a href="https://szit.hu/m/telemez">https://szit.hu/m/telemez</a>
             </p>
         </div>
     )
