@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <nav className="nav justify-content-center">
-        <Link to="/" className="nav-link">Főoldal</Link>
-        <Link to="/calc" className="nav-link">Számítás</Link>
-        <Link to="/about" className="nav-link">Névjegy</Link>
+        <Link to="/m/telemez/" className="nav-link">Főoldal</Link>
+        <Link to="/m/telemez/calc" className="nav-link">Számítás</Link>
+        <Link to="/m/telemez/about" className="nav-link">Névjegy</Link>
       </nav>
       <div className="container">
         <Routes>
