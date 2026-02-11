@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /m/telemez/
+
+  # Ha nem létező fájl vagy könyvtár
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Irányítsa vissza az index.html-re
+  RewriteRule . /m/telemez/index.html [L]
+</IfModule>

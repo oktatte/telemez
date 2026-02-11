@@ -9,15 +9,15 @@ function App() {
   return (
     <BrowserRouter>
       <nav className="nav justify-content-center">
-        <Link to="/" className="nav-link">Főoldal</Link>
-        <Link to="/calc" className="nav-link">Számítás</Link>
-        <Link to="/about" className="nav-link">Névjegy</Link>
+        <Link to="/m/telemez/" className="nav-link">Főoldal</Link>
+        <Link to="/m/telemez/calc" className="nav-link">Számítás</Link>
+        <Link to="/m/telemez/about" className="nav-link">Névjegy</Link>
       </nav>
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/calc" element={<Calc />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/m/telemez/" element={<Home />} />
+          <Route path="/m/telemez/calc" element={<Calc />} />
+          <Route path="/m/telemez/about" element={<About />} />
         </Routes>
       </div>
     </BrowserRouter>    
